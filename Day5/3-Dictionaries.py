@@ -29,3 +29,7 @@ print(customer)
 KeyError: 'number'
 '''
 print(customer.get("name")) 
+
+#DICTIONARY COMPREHENSIONS
+
+#{key: value for (key, value) in iterable}. 
