@@ -9,7 +9,7 @@ elif operation == '-':
     print("subtraction", number_1 - number_2)
 
 elif operation == '*':
-    print("multiply", number_1 * number_2)
+    print("multiply", number_1 * number_2) 
 elif operation == '/':
     print("divide", number_1 / number_2)
 else:
