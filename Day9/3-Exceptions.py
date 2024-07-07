@@ -23,7 +23,7 @@ finally:
   print("The 'try except' is finished")
 
   '''
-
+'''
 try:
   f = open("demofile.txt")
   try:
@@ -34,3 +34,36 @@ try:
     f.close()
 except:
   print("Something went wrong when opening the file")
+
+  '''
+
+# #Finally makes difference in a function
+# def func():
+#     try:
+#         list = [1,2,3,4,5,6]
+#         i = int(input("Enter index "))
+#         print(list[i])
+#         return 1
+#     except:
+#         print("Some error occured")
+#         return 0
+    
+#     print("IMPORTANT!!!!!!!") #=> This code wont run if not finally and even when no error
+
+# z= func()
+# print(z)
+
+# def func():
+#     try:
+#         list = [1,2,3,4,5,6]
+#         i = int(input("Enter index "))
+#         print(list[i])
+#         return 1
+#     except:
+#         print("Some error occured")
+#         return 0
+#     finally:
+#         print("IMPORTANT!!!!!!!") #=> This code wont run if not finally and even when no error
+
+# z= func()
+# print(z)
