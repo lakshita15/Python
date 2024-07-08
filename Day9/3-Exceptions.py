@@ -67,3 +67,4 @@ except:
 
 # z= func()
 # print(z)
+#raising custom errors
